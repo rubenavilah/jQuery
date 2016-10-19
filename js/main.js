@@ -34,8 +34,8 @@ $(document).ready(function(){
     eventObject.stopPropagation();
     google_link.hide(500);
     google_link.show(500);
-    google_link.slideUp(20000).delay(2000);
-    google_link.slideDown(2000);
+    google_link.slideUp(500).delay(500);
+    google_link.slideDown(500);
   });
   dom_ul.addClass("little-list");
   dom_ul.removeClass("little-list");
